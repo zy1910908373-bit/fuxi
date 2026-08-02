@@ -27,7 +27,6 @@ void vApplicationStackOverflowHook( TaskHandle_t xTask,
 void vApplicationIdleHook( void )
 {
 		// ÏÐÖÃ
-		// ÎÒ²ÙÄãÂè
 }
 
 void vApplicationTickHook( void )
