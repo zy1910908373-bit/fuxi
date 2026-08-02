@@ -1,0 +1,366 @@
+Dependencies for Project 'project', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (..\User\gd32f4xx_it.c)(0x6A659592)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/gd32f4xx_it.o -MMD)
+I (..\User\gd32f4xx_it.h)(0x67A458EE)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+I (..\User\main.h)(0x67A458EE)
+I (..\User\systick.h)(0x67A458EE)
+F (..\User\main.c)(0x6A65D7A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/main.o -MMD)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+I (..\User\systick.h)(0x67A458EE)
+I (..\User\main.h)(0x67A458EE)
+I (..\Utilities\gd32f450i_eval.h)(0x67A458F1)
+I (..\Hardware\LEDs\bsp_led.h)(0x6A65D639)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+F (..\User\systick.c)(0x67A458EE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/systick.o -MMD)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+I (..\User\systick.h)(0x67A458EE)
+F (..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c)(0x6642D433)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/gd32f4xx_rcu.o -MMD)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+F (..\Firmware\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c)(0x6642D433)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/gd32f4xx_gpio.o -MMD)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+F (..\Firmware\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c)(0x6642D433)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/system_gd32f4xx.o -MMD)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+F (..\Firmware\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f407_427.s)(0x6642D433)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 542" -Wa,armasm,--pd,"GD32F407 SETA 1"-o ./objects/startup_gd32f407_427.o)
+F (..\User\FreeRTOSConfig.h)(0x6A65949A)()
+F (..\FreeRTOS\croutine.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/croutine.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\croutine.h)(0x6A6597A1)
+F (..\FreeRTOS\event_groups.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/event_groups.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\timers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\event_groups.h)(0x6376D0F8)
+F (..\FreeRTOS\list.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/list.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+F (..\FreeRTOS\queue.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/queue.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\queue.h)(0x6376D0F8)
+F (..\FreeRTOS\stream_buffer.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/stream_buffer.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\stream_buffer.h)(0x6376D0F8)
+F (..\FreeRTOS\tasks.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/tasks.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\timers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\stack_macros.h)(0x6376D0F8)
+F (..\FreeRTOS\timers.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/timers.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+I (..\FreeRTOS\include\queue.h)(0x6376D0F8)
+I (..\FreeRTOS\include\timers.h)(0x6376D0F8)
+F (..\FreeRTOS\portable\GCC\ARM_CM4F\port.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/port.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+F (..\FreeRTOS\portable\MemMang\heap_4.c)(0x6376D0F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/heap_4.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x6376D0F8)
+I (..\User\FreeRTOSConfig.h)(0x6A65949A)
+I (..\FreeRTOS\include\projdefs.h)(0x6376D0F8)
+I (..\FreeRTOS\include\portable.h)(0x6376D0F8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x6376D0F8)
+I (..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h)(0x6376D0F8)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x6376D0F8)
+I (..\FreeRTOS\include\task.h)(0x6A6597D4)
+I (..\FreeRTOS\include\list.h)(0x6376D0F8)
+F (..\Hardware\LEDs\bsp_led.c)(0x688358DB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Firmware/GD32F4xx_standard_peripheral/Include -I ../Firmware/CMSIS -I ../User -I ../Firmware/CMSIS/GD/GD32F4xx/Include -I ../Utilities -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM4F -I ../Hardware/LEDs-IF:/Keil_v5/GigaDevice/GD32F4xx_DFP/3.3.0/Device/F4XX/Include-D__UVISION_VERSION="542" -DGD32F407 -DSUPPORT_RTOS-o ./objects/bsp_led.o -MMD)
+I (..\Hardware\LEDs\bsp_led.h)(0x6A65D639)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x6642D433)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x6642D433)
+I (..\Firmware\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x6642D433)
+I (..\User\gd32f4xx_libopt.h)(0x67A458EE)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x6642D433)
+I (..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x6642D433)
+I (..\User\systick.h)(0x67A458EE)
