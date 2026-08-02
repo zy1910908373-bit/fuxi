@@ -1,0 +1,36 @@
+# Keil MDK build output
+**/Objects/
+**/Listings/
+**/DebugConfig/
+**/RTE/
+
+# Keil user / local IDE state (per-machine window layout)
+*.uvguix.*
+*.uvguix
+*.bak
+*.Bak
+
+# Build artifacts (fallback if not under Objects/Listings)
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.bin
+*.map
+*.lnp
+*.dep
+*.lst
+*.i
+*.build_log.htm
+
+# Editor / tooling
+.vscode/*.log
+*.swp
+*~
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
