@@ -76,6 +76,7 @@ targets:
         - USE_STDPERIPH_DRIVER
         - SUPPORT_RTOS
       incList:
+        - .
         - ../Firmware/GD32F4xx_standard_peripheral/Include
         - ../Firmware/CMSIS
         - ../User

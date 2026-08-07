@@ -3,6 +3,7 @@
 
 #include "bsp_led.h"
 #include "buzzer.h"
+#include "App.h"
 
 #include "FreeRTOS.h"
 #include "task.h"
@@ -24,5 +25,11 @@ void task2(void *pvParameters);
 
 //////////////////////////////·äÃùÆ÷
 void buzzer_task(void *pvParameters);
+
+
+
+
+////////////////////////°´¼ü
+void task_key_scan(void *pvParameters);
 
 #endif
