@@ -1,0 +1,23 @@
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m4
+    - -mthumb
+    - -DGD32F407
+    - -DUSE_STDPERIPH_DRIVER
+    - -DSUPPORT_RTOS
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/GD32F4xx_standard_peripheral/Include
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/CMSIS
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/CMSIS/GD/GD32F4xx/Include
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/User
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Utilities
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/FreeRTOS/include
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/FreeRTOS/portable/GCC/ARM_CM4F
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Hardware/LEDs
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Hardware/Buzzer
+    - -If:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Task
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+Index:
+  Background: Build

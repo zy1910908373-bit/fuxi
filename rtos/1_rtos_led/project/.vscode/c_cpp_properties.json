@@ -13,6 +13,7 @@
                 "f:\\AAA_Self_Koncking_code\\Keil_code_GD32\\fuxi\\rtos\\1_rtos_led\\Hardware\\LEDs",
                 "f:\\AAA_Self_Koncking_code\\Keil_code_GD32\\fuxi\\rtos\\1_rtos_led\\Hardware\\Buzzer",
                 "f:\\AAA_Self_Koncking_code\\Keil_code_GD32\\fuxi\\rtos\\1_rtos_led\\Task",
+                "f:\\AAA_Self_Koncking_code\\Keil_code_GD32\\fuxi\\rtos\\1_rtos_led\\APP",
                 "F:\\Keil_v5\\ARM\\ARMCLANG\\include",
                 "F:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "F:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
@@ -24,6 +25,8 @@
                 "f:\\AAA_Self_Koncking_code\\Keil_code_GD32\\fuxi\\rtos\\1_rtos_led\\FreeRTOS\\portable\\MemMang"
             ],
             "defines": [
+                "GD32F407",
+                "USE_STDPERIPH_DRIVER",
                 "SUPPORT_RTOS",
                 "__alignof__(x)=",
                 "__asm(x)=",

@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>SUPPORT_RTOS,</Define>
+              <Define>GD32F407,USE_STDPERIPH_DRIVER,SUPPORT_RTOS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Firmware\GD32F4xx_standard_peripheral\Include;..\Firmware\CMSIS;..\User;..\Firmware\CMSIS\GD\GD32F4xx\Include;..\Utilities;..\FreeRTOS\include;..\FreeRTOS\portable\GCC\ARM_CM4F;..\Hardware\LEDs;..\Hardware\Buzzer;..\Task</IncludePath>
+              <IncludePath>..\Firmware\GD32F4xx_standard_peripheral\Include;..\Firmware\CMSIS;..\User;..\Firmware\CMSIS\GD\GD32F4xx\Include;..\Utilities;..\FreeRTOS\include;..\FreeRTOS\portable\GCC\ARM_CM4F;..\Hardware\LEDs;..\Hardware\Buzzer;..\Task;..\APP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -528,6 +528,21 @@
               <FileName>self_task.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Task\self_task.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>APP</GroupName>
+          <Files>
+            <File>
+              <FileName>app_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\APP\app_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>App.h</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\APP\App.h</FilePath>
             </File>
           </Files>
         </Group>

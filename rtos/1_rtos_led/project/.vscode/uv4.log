@@ -1,0 +1,36 @@
+*** Using Compiler 'V6.23', folder: 'F:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target_1'
+../APP/app_key.c(4): error: unknown type name 'QueueHandle_t'
+    4 | static QueueHandle_t key_queue = NULL;
+      |        ^
+../APP/app_key.c(4): error: use of undeclared identifier 'NULL'
+    4 | static QueueHandle_t key_queue = NULL;
+      |                                  ^
+2 errors generated.
+compiling app_key.c...
+compiling App.h...
+../User/main.c(16): warning: unused parameter 'xTask' [-Wunused-parameter]
+   16 | void vApplicationStackOverflowHook( TaskHandle_t xTask,
+      |                                                  ^
+../User/main.c(17): warning: unused parameter 'pcTaskName' [-Wunused-parameter]
+   17 |                                         char * pcTaskName )
+      |                                                ^
+2 warnings generated.
+compiling main.c...
+../Task/self_task.c(9): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+    9 | void start_task(void *pvParameters)
+      |                       ^
+../Task/self_task.c(34): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+   34 | void task1(void *pvParameters)
+      |                  ^
+../Task/self_task.c(56): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+   56 | void task2(void *pvParameters)
+      |                  ^
+../Task/self_task.c(80): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+   80 | void buzzer_task(void *pvParameters)
+      |                        ^
+4 warnings generated.
+compiling self_task.c...
+".\Objects\project.axf" - 2 Error(s), 6 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

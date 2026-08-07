@@ -2,54 +2,34 @@
 #include "systick.h"
 #include <stdio.h>
 #include "main.h"
-#include "gd32f450i_eval.h"
 
+#include "FreeRTOS.h"
+#include "task.h"
 #include "self_task.h"
-
-
-
-// ¹³×Óº¯Êý£¬»Øµ÷
-// callback
-// µ±·¢Éú¶ÔÓ¦ÊÂÇé£¬Õâ¸öº¯Êý¾Í»á±»µ÷ÓÃ
 
 void vApplicationStackOverflowHook( TaskHandle_t xTask,
                                         char * pcTaskName )
 {
-		// ÄÚ´æÒç³öÊ±£¬º¯Êý»á±»µ÷ÓÃ£¬stack
-		// 
 }
 
 void vApplicationIdleHook( void )
 {
-		// ÏÐÖÃ 
-		//sfeujfkshefiuehfios
 }
 
 void vApplicationTickHook( void )
 {
-		// tick 
 }
 
 void vApplicationMallocFailedHook( void )
 {
-	// ÄÚ´æÉêÇëÊ§°Ü»Øµ÷ heap
 }
 
 int main(void)
 {
-	//freertos ²»ÐèÒªsystick
-//		systick_config();
-		//³õÊ¼»¯
-//		GPIO_config();
-	
-		// RTOS ³õÊ¼»¯
-	  // ´´½¨ÆðÊ¼ÈÎÎñ
 	xTaskCreate((TaskFunction_t)start_task,(const char*)"start_task",128,NULL,1,
 		(TaskHandle_t*)&StartTask_Handler
 	);
-	vTaskStartScheduler();  // ´ò¿ªµ÷¶ÈÆ÷
+	vTaskStartScheduler();  // æ‰“å¼€è°ƒåº¦å™¨
 		
-    while(1) {
-
-    }
+    while(1);
 }

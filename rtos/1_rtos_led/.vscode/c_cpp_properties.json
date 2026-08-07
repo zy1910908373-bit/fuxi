@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "GD32F407_FreeRTOS",
+            "includePath": [
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/GD32F4xx_standard_peripheral/Include",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/CMSIS",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Firmware/CMSIS/GD/GD32F4xx/Include",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/User",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Utilities",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/FreeRTOS/include",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/FreeRTOS/portable/GCC/ARM_CM4F",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Hardware/LEDs",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Hardware/Buzzer",
+                "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led/Task",
+                "F:/Keil_v5/ARM/ARMCLANG/include"
+            ],
+            "defines": [
+                "GD32F407",
+                "USE_STDPERIPH_DRIVER",
+                "SUPPORT_RTOS"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "F:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe",
+            "compilerArgs": [
+                "--target=arm-arm-none-eabi",
+                "-mcpu=cortex-m4",
+                "-mthumb"
+            ],
+            "browse": {
+                "path": [
+                    "f:/AAA_Self_Koncking_code/Keil_code_GD32/fuxi/rtos/1_rtos_led"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

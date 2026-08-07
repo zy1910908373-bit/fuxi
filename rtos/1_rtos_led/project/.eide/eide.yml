@@ -1,0 +1,216 @@
+version: "4.1"
+name: project
+type: ARM
+deviceName: null
+packDir: .pack/GigaDevice/GD32F4xx_DFP.2.0.0
+srcDirs: []
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders:
+    - name: User
+      files:
+        - path: ../User/gd32f4xx_it.c
+        - path: ../User/main.c
+        - path: ../User/systick.c
+      folders: []
+    - name: Firmware
+      files:
+        - path: ../Firmware/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c
+        - path: ../Firmware/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c
+        - path: ../Firmware/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c
+      folders: []
+    - name: CMSIS
+      files:
+        - path: ../Firmware/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c
+        - path: ../Firmware/CMSIS/GD/GD32F4xx/Source/ARM/startup_gd32f407_427.s
+      folders: []
+    - name: FreeRTOS
+      files:
+        - path: ../User/FreeRTOSConfig.h
+      folders:
+        - name: core
+          files:
+            - path: ../FreeRTOS/croutine.c
+            - path: ../FreeRTOS/event_groups.c
+            - path: ../FreeRTOS/list.c
+            - path: ../FreeRTOS/queue.c
+            - path: ../FreeRTOS/stream_buffer.c
+            - path: ../FreeRTOS/tasks.c
+            - path: ../FreeRTOS/timers.c
+          folders: []
+        - name: port
+          files:
+            - path: ../FreeRTOS/portable/GCC/ARM_CM4F/port.c
+            - path: ../FreeRTOS/portable/MemMang/heap_4.c
+          folders: []
+    - name: BSP
+      files: []
+      folders:
+        - name: LEDS
+          files:
+            - path: ../Hardware/LEDs/bsp_led.c
+          folders: []
+        - name: BUZZER
+          files:
+            - path: ../Hardware/Buzzer/buzzer.c
+          folders: []
+    - name: Task
+      files:
+        - path: ../Task/self_task.c
+      folders: []
+    - name: APP
+      files:
+        - path: ../APP/app_key.c
+        - path: ../APP/App.h
+      folders: []
+dependenceList: []
+outDir: build
+miscInfo:
+  uid: a630f7b50b029be118020f63bf18b422
+targets:
+  Target_1:
+    cppPreprocessAttrs:
+      defineList:
+        - GD32F407
+        - USE_STDPERIPH_DRIVER
+        - SUPPORT_RTOS
+      incList:
+        - ../Firmware/GD32F4xx_standard_peripheral/Include
+        - ../Firmware/CMSIS
+        - ../User
+        - ../Firmware/CMSIS/GD/GD32F4xx/Include
+        - ../Utilities
+        - ../FreeRTOS/include
+        - ../FreeRTOS/portable/GCC/ARM_CM4F
+        - ../Hardware/LEDs
+        - ../Hardware/Buzzer
+        - ../Task
+        - ../APP
+        - .cmsis/include
+        - RTE/_Target_1
+      libList: []
+    excludeList: []
+    settings:
+      debugger: cortex-debug
+    toolchain: AC6
+    toolchainConfigMap:
+      AC6:
+        archExtensions: ""
+        cpuType: Cortex-M4
+        floatingPointHardware: single
+        options:
+          version: 3
+          afterBuildTasks: []
+          asm-compiler:
+            $use: asm-auto
+            defines: []
+            misc-controls: ""
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            language-c: c99
+            language-cpp: c++11
+            link-time-optimization: false
+            one-elf-section-per-function: true
+            optimization: level-0
+            short-enums#wchar: true
+            warnings: all-warnings
+          global:
+            output-debug-info: enable
+            use-microLIB: false
+          linker:
+            $disableOutputTask: false
+            $outputTaskExcludes:
+              - .bin
+              - .s19
+            misc-controls: --diag_suppress=L6329
+            output-format: elf
+            ro-base: "0x08000000"
+            rw-base: "0x20000000"
+            xo-base: ""
+        scatterFilePath: ""
+        storageLayout:
+          RAM:
+            - id: 1
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 2
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 3
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 1
+              isChecked: true
+              mem:
+                size: "0x20000"
+                startAddr: "0x20000000"
+              noInit: false
+              tag: IRAM
+            - id: 2
+              isChecked: false
+              mem:
+                size: "0x10000"
+                startAddr: "0x10000000"
+              noInit: false
+              tag: IRAM
+          ROM:
+            - id: 1
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 2
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 3
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 1
+              isChecked: true
+              isStartup: true
+              mem:
+                size: "0x80000"
+                startAddr: "0x8000000"
+              tag: IROM
+            - id: 2
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: IROM
+        useCustomScatterFile: false
+    uploadConfigMap:
+      JLink:
+        baseAddr: ""
+        bin: ""
+        cpuInfo:
+          cpuName: "null"
+          vendor: "null"
+        otherCmds: ""
+        proType: 1
+        speed: 8000
+    uploader: JLink

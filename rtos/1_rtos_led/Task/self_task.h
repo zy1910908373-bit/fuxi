@@ -6,7 +6,6 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
-
 extern  TaskHandle_t    StartTask_Handler;
 extern  TaskHandle_t    Task1_Handler;
 extern  TaskHandle_t    Task2_Handler;

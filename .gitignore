@@ -10,6 +10,8 @@
 *.bak
 *.Bak
 
+*.idx
+
 # Build artifacts (fallback if not under Objects/Listings)
 *.o
 *.d
